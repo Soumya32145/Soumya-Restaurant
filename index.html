@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a responsive website using html and css</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header part start -->
+    <header>
+        <a href="#" class="logo">Soumya Chilika<span>Restaurant</span></a>
+
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#menu" onclick="toggleMenu()">Menu</a></li>
+                <li><a href="#expert" onclick="toggleMenu()">Expert</a></li>
+                <li><a href="#testimonials" onclick="toggleMenu()">Testimonials</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header part end -->
+
+    <!-- banner part start -->
+   <section class="banner" id="banner">
+
+    <!-- Floating Blur Effects -->
+    <div class="blur blur-1"></div>
+    <div class="blur blur-2"></div>
+
+    <div class="content">
+
+        <span class="sub-title">
+           
+        </span>
+
+        <h2>
+            Taste The <span>Authentic Flavors</span>
+            Of Chilika Lake
+        </h2>
+
+        <p>
+            Experience the true essence of Odisha with freshly caught seafood,
+            handcrafted traditional recipes, luxury dining ambiance,
+            and unforgettable flavors served directly from the heart of Chilika.
+            From spicy crab masala to signature fish thali,
+            every dish is prepared with freshness, culture, and passion.
+        </p>
+
+        <!-- Banner Features -->
+        <div class="banner-features">
+
+            <div class="feature-box">
+                <h3>15+</h3>
+                <span>Seafood Dishes</span>
+            </div>
+
+            <div class="feature-box">
+                <h3>Fresh</h3>
+                <span>Daily Catch</span>
+            </div>
+
+            <div class="feature-box">
+                <h3>5★</h3>
+                <span>Customer Rating</span>
+            </div>
+
+        </div>
+
+        <!-- Buttons -->
+        <div class="banner-buttons">
+
+            <a href="#menu" class="btn">
+                Explore Menu
+            </a>
+
+            <a href="#about" class="btn btn2">
+                Discover More
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Scroll Down -->
+    <a href="#about" class="scroll-down">
+        <span></span>
+    </a>
+
+</section>
+    <!-- banner part end -->
+
+    <!-- about part start -->
+    <section class="about" id="about">
+
+    <!-- Background Effects -->
+    <div class="about-blur blur-1"></div>
+    <div class="about-blur blur-2"></div>
+
+    <div class="row">
+
+        <!-- LEFT CONTENT -->
+        <div class="col50 contentBx">
+
+            <span class="mini-title">
+                🌊 Discover Our Story
+            </span>
+
+            <h2 class="titleText">
+                Experience The <span>Authentic Taste</span>
+                Of Odisha
+            </h2>
+
+            <p class="about-text">
+                Welcome to <strong>Soumya Chilika Restaurant</strong>,
+                where tradition meets luxury dining.
+                Inspired by the breathtaking beauty of Chilika Lake,
+                we proudly serve authentic Odia seafood crafted with
+                passion, freshness, and heritage.
+
+                We believe food is not just about taste —
+                it is about emotion, culture, family, and memories.
+                Our warm ambiance, premium service,
+                and handcrafted recipes make every visit special.
+
+            </p>
+
+            <!-- Features -->
+            <div class="about-features">
+
+                <div class="feature-card">
+                    <h3>Fresh Catch</h3>
+                    <p>Daily seafood directly sourced from Chilika Lake.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Traditional Recipe</h3>
+                    <p>Authentic Odia spices and cultural flavors.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Luxury Dining</h3>
+                    <p>Elegant ambiance with premium hospitality.</p>
+                </div>
+
+            </div>
+
+            <!-- Stats -->
+            <div class="about-stats">
+
+                <div class="stat-box">
+                    <h2>10+</h2>
+                    <span>Years Experience</span>
+                </div>
+
+                <div class="stat-box">
+                    <h2>25+</h2>
+                    <span>Seafood Dishes</span>
+                </div>
+
+                <div class="stat-box">
+                    <h2>5★</h2>
+                    <span>Customer Rating</span>
+                </div>
+
+            </div>
+
+            <!-- Button -->
+            <a href="#menu" class="btn">
+                Explore Our Menu
+            </a>
+
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="col50">
+
+            <div class="imgBx">
+
+                <img src="images/istockphoto-1305699663-612x612.jpg"
+                    alt="Odia Seafood Restaurant">
+
+                <!-- Floating Card -->
+                <div class="floating-card">
+
+                    <h3>Authentic Odia Cuisine</h3>
+
+                    <p>
+                        Bringing the soul of Chilika seafood
+                        to your dining table.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- about part end -->
+
+    <!-- menu part start -->
+   <!-- ================= MENU SECTION START ================= -->
+
+<section class="menu" id="menu">
+
+    <!-- Background Glow -->
+    <div class="menu-blur blur-1"></div>
+    <div class="menu-blur blur-2"></div>
+
+    <!-- Section Title -->
+    <div class="title">
+
+        <span class="mini-title">
+            🍽 Premium Seafood Collection
+        </span>
+
+        <h2 class="titleText">
+            Explore Our <span>Signature Menu</span>
+        </h2>
+
+        <p>
+            Fresh seafood directly from Chilika Lake prepared with
+            authentic Odia spices, premium ingredients,
+            and unforgettable traditional flavors.
+        </p>
+
+    </div>
+
+    <!-- Menu Cards -->
+    <div class="content">
+
+        <!-- CARD 1 -->
+        <div class="box">
+
+            <div class="imgBx">
+
+                <img loading="lazy"
+                    src="images/chilika fish curry.jpg"
+                    alt="Chilika Fish Curry">
+
+                <div class="overlay">
+
+                    <span class="tag">
+                        Best Seller
+                    </span>
+
+                    <div class="price">
+                        ₹399
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <div class="top">
+
+                    <h3>Chilika Fish Curry</h3>
+
+                    <span class="rating">
+                        ⭐ 4.9
+                    </span>
+
+                </div>
+
+                <p>
+                    Authentic Odia fish curry cooked with
+                    traditional coastal spices and fresh fish.
+                </p>
+
+                <div class="bottom">
+
+                    <span>
+                        🔥 Spicy Special
+                    </span>
+
+                    <a href="#" class="order-btn">
+                        Order Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="box">
+
+            <div class="imgBx">
+
+                <img loading="lazy"
+                    src="images/prawn fry.jpg"
+                    alt="Prawn Fry">
+
+                <div class="overlay">
+
+                    <span class="tag">
+                        Chef Choice
+                    </span>
+
+                    <div class="price">
+                        ₹499
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <div class="top">
+
+                    <h3>Spicy Prawn Fry</h3>
+
+                    <span class="rating">
+                        ⭐ 4.8
+                    </span>
+
+                </div>
+
+                <p>
+                    Crispy prawns tossed with premium masala
+                    and signature Odia flavors.
+                </p>
+
+                <div class="bottom">
+
+                    <span>
+                        🍤 Fresh Daily
+                    </span>
+
+                    <a href="#" class="order-btn">
+                        Order Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="box">
+
+            <div class="imgBx">
+
+                <img loading="lazy"
+                    src="images/crabs Masala.jpg"
+                    alt="Crab Masala">
+
+                <div class="overlay">
+
+                    <span class="tag">
+                        Popular
+                    </span>
+
+                    <div class="price">
+                        ₹599
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <div class="top">
+
+                    <h3>Crab Masala</h3>
+
+                    <span class="rating">
+                        ⭐ 5.0
+                    </span>
+
+                </div>
+
+                <p>
+                    Delicious spicy crab dish filled with rich
+                    coastal flavors and aromatic spices.
+                </p>
+
+                <div class="bottom">
+
+                    <span>
+                        🦀 Premium Crab
+                    </span>
+
+                    <a href="#" class="order-btn">
+                        Order Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="box">
+
+            <div class="imgBx">
+
+                <img loading="lazy"
+                    src="images/fish fry.jpg"
+                    alt="Fish Fry">
+
+                <div class="overlay">
+
+                    <span class="tag">
+                        Hot Dish
+                    </span>
+
+                    <div class="price">
+                        ₹349
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <div class="top">
+
+                    <h3>Golden Fish Fry</h3>
+
+                    <span class="rating">
+                        ⭐ 4.7
+                    </span>
+
+                </div>
+
+                <p>
+                    Crispy golden fried fish served with
+                    restaurant special dipping sauces.
+                </p>
+
+                <div class="bottom">
+
+                    <span>
+                        🐟 Crispy Taste
+                    </span>
+
+                    <a href="#" class="order-btn">
+                        Order Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="box">
+
+            <div class="imgBx">
+
+                <img loading="lazy"
+                    src="images/seafood soup.jpg"
+                    alt="Seafood Soup">
+
+                <div class="overlay">
+
+                    <span class="tag">
+                        Healthy
+                    </span>
+
+                    <div class="price">
+                        ₹299
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <div class="top">
+
+                    <h3>Seafood Soup</h3>
+
+                    <span class="rating">
+                        ⭐ 4.6
+                    </span>
+
+                </div>
+
+                <p>
+                    Fresh seafood soup enriched with
+                    traditional herbs and authentic taste.
+                </p>
+
+                <div class="bottom">
+
+                    <span>
+                        🥣 Hot & Fresh
+                    </span>
+
+                    <a href="#" class="order-btn">
+                        Order Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="box">
+
+            <div class="imgBx">
+
+                <img loading="lazy"
+                    src="images/Odia chilika fish thali.jpg"
+                    alt="Odia Fish Thali">
+
+                <div class="overlay">
+
+                    <span class="tag">
+                        Traditional
+                    </span>
+
+                    <div class="price">
+                        ₹699
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <div class="top">
+
+                    <h3>Odia Fish Thali</h3>
+
+                    <span class="rating">
+                        ⭐ 5.0
+                    </span>
+
+                </div>
+
+                <p>
+                    Complete seafood meal with rice,
+                    curry, fry, salad, and side dishes.
+                </p>
+
+                <div class="bottom">
+
+                    <span>
+                        🍛 Full Meal
+                    </span>
+
+                    <a href="#" class="order-btn">
+                        Order Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- View Full Menu Button -->
+    <div class="title">
+
+        <a href="javascript:void(0)"
+            class="btn"
+            onclick="openMenu()">
+
+            View Full Menu
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= MENU SECTION END ================= -->
+
+
+
+
+
+<!-- ================= FULL MENU START ================= -->
+
+<section class="fullMenu" id="fullMenu">
+
+    <div class="title">
+
+        <span class="mini-title">
+            🌊 Complete Seafood Collection
+        </span>
+
+        <h2 class="titleText">
+            Our <span>Full Menu</span>
+        </h2>
+
+        <p>
+            Discover premium seafood dishes crafted
+            with authentic Odia recipes and fresh ingredients.
+        </p>
+
+    </div>
+
+    <!-- Full Menu Content -->
+    <div class="content">
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/chilika special fish curry.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Chilika Special Fish Curry</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/spicy prawns fry.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Spicy Prawns Fry</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/Butter gralic crabs.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Butter Garlic Crab</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/Golden fish fry.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Golden Fish Fry</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/seafoodhotsoup.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Seafood Hot Soup</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/odia fish thali (2).jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Odia Fish Thali</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/Grilled pom.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Grilled Pomfret</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/chilika prawns curry.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Chilika Prawn Curry</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/seafoodmix.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Seafood Mix Soup</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/spicy prawns fry.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Spicy Crab Masala</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/fish tikka fry.jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Fish Tikka Fry</h3>
+            </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="box">
+            <div class="imgBx">
+                <img loading="lazy"
+                    src="images/cattegory/seafood platter .jpg"
+                    alt="">
+            </div>
+            <div class="text">
+                <h3>Seafood Platter Special</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Close Button -->
+    <div class="title">
+
+        <a href="javascript:void(0)"
+            class="btn"
+            onclick="closeMenu()">
+
+            Close Full Menu
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FULL MENU END ================= -->
+    <!-- menu part end -->
+
+    <!-- expert part start -->
+   <!-- ================= EXPERT SECTION START ================= -->
+
+<section class="expert" id="expert">
+
+    <!-- Background Effects -->
+    <div class="expert-blur blur-1"></div>
+    <div class="expert-blur blur-2"></div>
+
+    <!-- SECTION TITLE -->
+    <div class="title">
+
+        <span class="mini-title">
+            👨‍🍳 Professional Culinary Masters
+        </span>
+
+        <h2 class="titleText">
+            Meet Our <span>Kitchen Experts</span>
+        </h2>
+
+        <p>
+            Our passionate chefs combine authentic Odia traditions,
+            premium seafood ingredients, and modern culinary artistry
+            to create unforgettable Chilika seafood experiences.
+        </p>
+
+    </div>
+
+    <!-- EXPERT CONTENT -->
+    <div class="content">
+
+        <!-- CHEF 1 -->
+        <div class="box">
+
+            <div class="boxImg">
+
+                <img src="images/man/chef1.jpg"
+                    alt="Head Chef">
+
+                <div class="overlay"></div>
+
+                <div class="experience">
+                    ⭐ 15+ Years Experience
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <span class="chef-role">
+                    Master Executive Chef
+                </span>
+
+                <h2>
+                    Chef Rajiv Das
+                </h2>
+
+                <p>
+                    Famous for authentic Odia seafood cuisine and
+                    traditional Chilika fish recipes made with
+                    rich local spices and premium ingredients.
+                </p>
+
+                <div class="chef-info">
+
+                    <span>
+                        🍤 Seafood Specialist
+                    </span>
+
+                    <span>
+                        ⭐ Award Winner
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CHEF 2 -->
+        <div class="box">
+
+            <div class="boxImg">
+
+                <img src="images/man/chef2.jpg"
+                    alt="Seafood Expert">
+
+                <div class="overlay"></div>
+
+                <div class="experience">
+                    🔥 Grill & Seafood Expert
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <span class="chef-role">
+                    Premium Seafood Chef
+                </span>
+
+                <h2>
+                    Chef Arjun Nayak
+                </h2>
+
+                <p>
+                    Expert in grilled pomfret, spicy prawns,
+                    crab masala, and luxury seafood platter creations.
+                </p>
+
+                <div class="chef-info">
+
+                    <span>
+                        🦀 Crab Master
+                    </span>
+
+                    <span>
+                        🔥 Grill Expert
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CHEF 3 -->
+        <div class="box">
+
+            <div class="boxImg">
+
+                <img src="images/man/chef3.jpg"
+                    alt="Sous Chef">
+
+                <div class="overlay"></div>
+
+                <div class="experience">
+                    🌶 Traditional Spice Master
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <span class="chef-role">
+                    Sous Chef
+                </span>
+
+                <h2>
+                    Chef Satyajit Rout
+                </h2>
+
+                <p>
+                    Known for balancing traditional Odia spices,
+                    creating rich curry flavors, and authentic seafood taste.
+                </p>
+
+                <div class="chef-info">
+
+                    <span>
+                        🌶 Spice Expert
+                    </span>
+
+                    <span>
+                        🍲 Curry Specialist
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CHEF 4 -->
+        <div class="box">
+
+            <div class="boxImg">
+
+                <img src="images/man/chef4.jpg"
+                    alt="Kitchen Specialist">
+
+                <div class="overlay"></div>
+
+                <div class="experience">
+                    🐟 Fresh Seafood Specialist
+                </div>
+
+            </div>
+
+            <div class="text">
+
+                <span class="chef-role">
+                    Kitchen Quality Expert
+                </span>
+
+                <h2>
+                    Chef Aman Behera
+                </h2>
+
+                <p>
+                    Ensures every seafood ingredient is fresh,
+                    hygienic, premium quality, and perfectly prepared daily.
+                </p>
+
+                <div class="chef-info">
+
+                    <span>
+                        ✅ Quality Control
+                    </span>
+
+                    <span>
+                        🐟 Fresh Seafood
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= EXPERT SECTION END ================= -->
+    <!-- expert part end -->
+
+    <!-- testimonials part start -->
+   <!-- ================= TESTIMONIALS SECTION START ================= -->
+
+<section class="testimonials" id="testimonials">
+
+    <!-- Background Effects -->
+    <div class="testimonial-blur blur-1"></div>
+    <div class="testimonial-blur blur-2"></div>
+
+    <!-- SECTION TITLE -->
+    <div class="title white">
+
+        <span class="mini-title">
+            💬 Customer Experiences
+        </span>
+
+        <h2 class="titleText">
+            What People <span>Say About Us</span>
+        </h2>
+
+        <p>
+            Thousands of seafood lovers visit Soumya Chilika Restaurant
+            to experience authentic Odia flavors, premium hospitality,
+            and unforgettable dining moments.
+        </p>
+
+    </div>
+
+    <!-- TESTIMONIAL CONTENT -->
+    <div class="content">
+
+        <!-- TESTIMONIAL 1 -->
+        <div class="box">
+
+            <div class="quote">
+                ”
+            </div>
+
+            <div class="imgBx">
+
+                <img src="images/man/man1.jpg"
+                    alt="Rahul Das">
+
+            </div>
+
+            <div class="text">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    The Chilika Fish Curry tasted absolutely authentic.
+                    It reminded me of homemade Odia seafood prepared
+                    with traditional coastal spices and fresh ingredients.
+                </p>
+
+                <h4>
+                    Rahul Das
+                </h4>
+
+                <span>
+                    Seafood Lover
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- TESTIMONIAL 2 -->
+        <div class="box">
+
+            <div class="quote">
+                ”
+            </div>
+
+            <div class="imgBx">
+
+                <img src="images/man/woman1.jpg"
+                    alt="Priya Mohanty">
+
+            </div>
+
+            <div class="text">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    One of the best seafood restaurants in Odisha.
+                    The prawns fry and crab masala were perfectly cooked,
+                    flavorful, and beautifully presented.
+                </p>
+
+                <h4>
+                    Priya Mohanty
+                </h4>
+
+                <span>
+                    Food Blogger
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- TESTIMONIAL 3 -->
+        <div class="box">
+
+            <div class="quote">
+                ”
+            </div>
+
+            <div class="imgBx">
+
+                <img src="images/man/man2.jpg"
+                    alt="Arjun Sahu">
+
+            </div>
+
+            <div class="text">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Amazing ambiance, premium hospitality,
+                    and unforgettable seafood flavors.
+                    The Odia Fish Thali was a complete luxury experience.
+                </p>
+
+                <h4>
+                    Arjun Sahu
+                </h4>
+
+                <span>
+                    Premium Customer
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- TESTIMONIAL 4 -->
+        <div class="box">
+
+            <div class="quote">
+                ”
+            </div>
+
+            <div class="imgBx">
+
+                <img src="images/man/woman2.jpg"
+                    alt="Sneha Pattnaik">
+
+            </div>
+
+            <div class="text">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Fresh seafood, luxury interiors,
+                    and authentic traditional taste.
+                    Every dish here feels premium and memorable.
+                </p>
+
+                <h4>
+                    Sneha Pattnaik
+                </h4>
+
+                <span>
+                    Restaurant Reviewer
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TESTIMONIALS SECTION END ================= -->
+    <!-- testimonials part end -->
+
+    <!-- contact part start -->
+   <!-- ================= CONTACT SECTION START ================= -->
+
+<section class="contact" id="contact">
+
+    <!-- Background Blur Effects -->
+    <div class="contact-blur blur-1"></div>
+    <div class="contact-blur blur-2"></div>
+
+    <!-- SECTION TITLE -->
+    <div class="title white">
+
+        <span class="mini-title">
+            📞 Reservation & Support
+        </span>
+
+        <h2 class="titleText">
+            <span>C</span>ontact Us
+        </h2>
+
+        <p>
+            Reserve your table, ask about our seafood specials,
+            or connect with our hospitality team for a premium
+            Odia dining experience.
+        </p>
+
+    </div>
+
+    <!-- CONTACT CONTAINER -->
+    <div class="contactContainer">
+
+        <!-- LEFT INFO -->
+        <div class="contactInfo">
+
+            <div class="infoCard">
+
+                <div class="icon">
+                    📍
+                </div>
+
+                <div class="details">
+                    <h3>Restaurant Location</h3>
+                    <p>
+                        Near Chilika Lake, Odisha, India
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="infoCard">
+
+                <div class="icon">
+                    📞
+                </div>
+
+                <div class="details">
+                    <h3>Call Us</h3>
+                    <p>
+                        +91 98765 43210
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="infoCard">
+
+                <div class="icon">
+                    ✉️
+                </div>
+
+                <div class="details">
+                    <h3>Email Address</h3>
+                    <p>
+                        soumyachilikarestaurant@gmail.com
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="infoCard">
+
+                <div class="icon">
+                    ⏰
+                </div>
+
+                <div class="details">
+                    <h3>Opening Hours</h3>
+                    <p>
+                        Everyday : 10:00 AM - 11:30 PM
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="contactForm">
+
+            <form action="#">
+
+                <div class="formTop">
+
+                    <span>
+                        Seafood Reservation
+                    </span>
+
+                    <h2>
+                        Send Message
+                    </h2>
+
+                    <p>
+                        We will contact you shortly for bookings,
+                        catering services, and seafood specials.
+                    </p>
+
+                </div>
+
+                <div class="inputBox">
+                    <input type="text"
+                        name="name"
+                        required>
+
+                    <span>
+                        Your Full Name
+                    </span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="email"
+                        name="email"
+                        required>
+
+                    <span>
+                        Your Email Address
+                    </span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="tel"
+                        name="phone"
+                        required>
+
+                    <span>
+                        Mobile Number
+                    </span>
+                </div>
+
+                <div class="inputBox">
+                    <textarea name="message"
+                        required></textarea>
+
+                    <span>
+                        Write Your Message
+                    </span>
+                </div>
+
+                <div class="inputBox">
+                    <input type="submit"
+                        value="Reserve Table">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT SECTION END ================= -->
+    <!-- contact part end -->
+
+    <div class="copyrightText">
+        <p>Copyright 2026 &copy; All Right Reserved</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
